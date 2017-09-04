@@ -58,6 +58,6 @@ from motion import move
 
 After importing the library, you can use the commands below to set motor speeds:
 
-- @move(num) - starts rotating in one direction for positive "num" and in the other for negative (depends on motor connections)@
-- @move(num, TRUE) - the motor is operating in another process in parallel@
+- move(num) - starts rotating in one direction for positive "num" and in the other for negative (depends on motor connections)
+- move(num, TRUE) - the motor is operating in another process in parallel
 
